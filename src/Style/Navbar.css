@@ -1,0 +1,82 @@
+.nav-container {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: space-between;
+    align-items: center;
+    background: #043873;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-name {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-menu-box {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.login-button {
+    display: flex;
+    height: 60px;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFE492;
+    color: #043873;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.try-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: #4F9CF9;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
