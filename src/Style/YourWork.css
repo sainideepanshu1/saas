@@ -1,0 +1,67 @@
+.yw-container {
+    display: flex;
+    padding: 140px 32px;
+    flex-direction: column;
+    align-items: center;
+    background: #043873;
+}
+
+.yw-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.yw-text-block {
+    display: flex;
+    width: 1064px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.yw-text1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+}
+
+.yw-text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+}
+button:hover{
+    scale: 1.05;
+}
+button:active{
+    scale: 0.95;
+}
+button{
+    cursor: pointer;
+}
+.taskey-button{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #4F9CF9;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -80,3 +80,88 @@
     cursor: pointer;
 }
 
+.nav-try-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background: #4F9CF9;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.toggle_btn {
+    display: none;
+    font-size: 2rem;
+    color: white;
+}
+
+/*Responsive Mobile*/
+@media (max-width:768px) {
+    .nav-container {
+        padding: 16px;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .logo {
+        width: 133.974px;
+        height: 24px;
+    }
+
+    .logo img {
+        width: 25.958px;
+        height: 20.346px;
+    }
+
+    .buttons {
+        gap: 29px;
+        background-color: #043873;
+        z-index: 5;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        justify-content: center;
+        top: 247px;
+        padding: 20px 0;
+    }
+
+    .logo-name {
+        font-size: 19.664px;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: relative;
+    }
+
+    .mobile-nav-right {
+        display: block;
+    }
+
+    .mobile-nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        top: 91px;
+        background: #043873;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        gap: 23px;
+        padding: 10px;
+    }
+    .nav-try-button,.login-button{
+        font-size: 16px;
+        padding: 10px;
+        height: 41px;
+    }
+}

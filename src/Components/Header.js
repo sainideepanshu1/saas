@@ -2,6 +2,7 @@ import React from 'react'
 import arrow from '../Media/Arrow.svg'
 import '../Style/Header.css'
 import Elements from './Elements'
+import rightimg from '../Media/Asset 1 2.png'
 const Header = () => {
     return (
         <div style={{position:"relative"}}>
@@ -18,6 +19,7 @@ const Header = () => {
                     </button>
                 </div>
                 <div className="right-header">
+                    <img className='rightimg' src={rightimg} alt="rightimg" />
                 </div>
             </div>
         </div>

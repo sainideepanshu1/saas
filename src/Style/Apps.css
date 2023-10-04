@@ -1,0 +1,12 @@
+.apps-container {
+    display: flex;
+    padding: 140px 32px;
+    align-items: flex-start;
+    gap: 100px;
+    background: #043873;
+}
+
+.apps-image {
+    width: 582px;
+    height: 470.796px;
+}
