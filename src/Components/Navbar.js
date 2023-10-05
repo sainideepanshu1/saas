@@ -8,7 +8,9 @@ import arrow from '../Media/Arrow.svg'
 const Navbar = () => {
     const [tgl, setTgl] = useState(false);
     const toggleBtn = () =>{
+        console.log(tgl);
         setTgl(!tgl);
+        console.log(tgl);
     }
     return (
         <div className='nav-container'>

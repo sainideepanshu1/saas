@@ -42,16 +42,20 @@
     line-height: 30px;
     letter-spacing: -0.36px;
 }
-button:hover{
+
+button:hover {
     scale: 1.05;
 }
-button:active{
+
+button:active {
     scale: 0.95;
 }
-button{
+
+button {
     cursor: pointer;
 }
-.taskey-button{
+
+.taskey-button {
     border: none;
     display: flex;
     align-items: center;
@@ -64,4 +68,54 @@ button{
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media (max-width: 599px) {
+    .yw-container {
+        display: flex;
+        padding: 100px 16px 140px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .yw-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+        align-self: stretch;
+    }
+
+    .yw-text-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    .yw-text1 {
+        color: #FFF;
+
+        /* Header/H4 */
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .yw-text2 {
+        color: #FFF;
+
+        text-align: left;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: -0.36px;
+    }
 }

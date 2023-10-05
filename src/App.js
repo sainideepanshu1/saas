@@ -9,10 +9,12 @@ import Sponsors from "./Components/Sponsors";
 import Apps from "./Components/Apps";
 import Clients from "./Components/Clients";
 import FreeTrial from "./Components/FreeTrial";
+import Footer from "./Components/Footer";
+import ToggleState from "./context/TogglerState";
 
 function App() {
   return (
-    <>
+    <ToggleState>
       <Navbar />
       <Header />
       <WorkManagement />
@@ -24,7 +26,8 @@ function App() {
       <Apps />
       <Clients />
       <FreeTrial />
-    </>
+      <Footer />
+    </ToggleState>
   );
 }
 

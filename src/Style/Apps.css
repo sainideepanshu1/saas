@@ -10,3 +10,22 @@
     width: 582px;
     height: 470.796px;
 }
+
+@media (max-width: 599px) {
+    .apps-container {
+        display: flex;
+        padding: 80px 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .apps-image {
+        width: 286.5px;
+        height: 231.758px;
+    }
+
+    .apps-image img {
+        width: 100%;
+    }
+}

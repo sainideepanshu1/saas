@@ -18,3 +18,28 @@
     align-items: center;
     align-self: stretch;
 }
+
+@media (max-width: 599px) {
+    .sponsors-container {
+        display: flex;
+        padding: 80px 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        color: #212529;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.72px;
+    }
+
+    .sponsor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        align-self: stretch;
+    }
+}

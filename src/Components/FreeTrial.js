@@ -13,7 +13,7 @@ const FreeTrial = () => {
                     <div className="lower-head">Get started for free. <br /> Add your whole team as your needs grow.</div>
                 </div>
                 <button className='try-button'>Try Taskey free
-                <img src={arrow} /></button>
+                <img src={arrow} alt='arrow'/></button>
                 On a big team? Contact sales
                 <div className="app-icon">
                     <img src={apple} alt="" />

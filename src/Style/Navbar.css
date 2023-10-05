@@ -102,7 +102,7 @@
 }
 
 /*Responsive Mobile*/
-@media (max-width:768px) {
+@media (max-width: 599px) {
     .nav-container {
         padding: 16px;
     }
@@ -159,7 +159,81 @@
         gap: 23px;
         padding: 10px;
     }
-    .nav-try-button,.login-button{
+
+    .nav-try-button,
+    .login-button {
+        font-size: 16px;
+        padding: 10px;
+        height: 41px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .nav-container {
+        display: flex;
+        padding: 16px 32px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        width: 25.958px;
+        height: 20.346px;
+    }
+
+    .buttons {
+        gap: 29px;
+        background-color: #043873;
+        z-index: 5;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        justify-content: center;
+        top: 247px;
+        padding: 20px 0;
+    }
+
+    .logo-name {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: relative;
+    }
+
+    .mobile-nav-right {
+        display: block;
+    }
+
+    .mobile-nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 5;
+        top: 91px;
+        background: #043873;
+        width: 100%;
+        align-items: center;
+        left: 0;
+        gap: 23px;
+        padding: 10px;
+    }
+
+    .nav-try-button,
+    .login-button {
         font-size: 16px;
         padding: 10px;
         height: 41px;
