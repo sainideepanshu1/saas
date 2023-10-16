@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/saas/static/css/main.16efea35.css",
+    "main.js": "/saas/static/js/main.6c233ccf.js",
+    "static/js/787.9fc9a8be.chunk.js": "/saas/static/js/787.9fc9a8be.chunk.js",
+    "static/media/Avater1.svg": "/saas/static/media/Avater1.cd23ac1addce79af4fdf616027f53aca.svg",
+    "static/media/Element.png": "/saas/static/media/Element.bb16c26d181e9b32974a.png",
+    "static/media/Avater3.svg": "/saas/static/media/Avater3.03d0dba27138fdadcda6edd56d3f3132.svg",
+    "static/media/Avater2.svg": "/saas/static/media/Avater2.c2a4cc8cec8cd3ffac7444748f40b731.svg",
+    "static/media/Work Together Image.png": "/saas/static/media/Work Together Image.00b197ece0024c28aff9.png",
+    "static/media/Apps.png": "/saas/static/media/Apps.8c1e61d729b0f97f7b13.png",
+    "static/media/Globe.svg": "/saas/static/media/Globe.971eb0c04ac5bc7be054542ab416d2a7.svg",
+    "static/media/microsoft 1.svg": "/saas/static/media/microsoft 1.b88a6b645e148f1319100979b2abd536.svg",
+    "static/media/Slack.svg": "/saas/static/media/Slack.5dce73961c4c6ae6590ede8a7e8028e1.svg",
+    "static/media/android-logo 1.svg": "/saas/static/media/android-logo 1.6ba6b6c245a15435e21a01acd7ef9d66.svg",
+    "static/media/Google.svg": "/saas/static/media/Google.f6c07a87e6b5977f9de5a82d41d9dfea.svg",
+    "static/media/apple-black-logo 2.svg": "/saas/static/media/apple-black-logo 2.08e8fe7976d16267de20ee635a25bb43.svg",
+    "static/media/landing-page-v-1-desktop-twitter.svg": "/saas/static/media/landing-page-v-1-desktop-twitter.f0343b25d7d4923a7cbfb8448fe9ecce.svg",
+    "static/media/landing-page-v-1-desktop-x-301-facebook.svg": "/saas/static/media/landing-page-v-1-desktop-x-301-facebook.9520984d4da14b96a8afe519fd1cfea2.svg",
+    "static/media/Logo Icon.svg": "/saas/static/media/Logo Icon.011cd54f715c366f45406a0a5b36f02a.svg",
+    "static/media/Apple.svg": "/saas/static/media/Apple.c2f6079a685989757fab9def0877f21a.svg",
+    "index.html": "/saas/index.html",
+    "static/media/download.svg": "/saas/static/media/download.236278304858facb8afb33bcdd395687.svg",
+    "static/media/landing-page-v-1-desktop-linkedin.svg": "/saas/static/media/landing-page-v-1-desktop-linkedin.1c9943cb270b7bd0301ef8e918abca79.svg",
+    "static/media/Icon.svg": "/saas/static/media/Icon.ee4402056ee392818a89b3969372f37c.svg",
+    "static/media/windows-logo 1.svg": "/saas/static/media/windows-logo 1.6123cc9abc0259135bfafa3c13101973.svg",
+    "static/media/Arrow.svg": "/saas/static/media/Arrow.c84da03fe57f85083f00a617f6e7a017.svg",
+    "static/media/Vector.svg": "/saas/static/media/Vector.00a75772abd41dce3adc5efa2947b4f2.svg",
+    "main.16efea35.css.map": "/saas/static/css/main.16efea35.css.map",
+    "main.6c233ccf.js.map": "/saas/static/js/main.6c233ccf.js.map",
+    "787.9fc9a8be.chunk.js.map": "/saas/static/js/787.9fc9a8be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16efea35.css",
+    "static/js/main.6c233ccf.js"
+  ]
+}
